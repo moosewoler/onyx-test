@@ -1,7 +1,5 @@
 # Define arm tool chain
 MACRO (USE_ARM_TOOLCHAIN)
-    message (STATUS "USE_ARM_TOOLCHAIN is set.")
-
     # Define the dependency libraries root path.
     if (ONYX_SDK_ROOT)
         message (STATUS "ONYX_SDK_ROOT is set to ${ONYX_SDK_ROOT}")
