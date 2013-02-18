@@ -13,8 +13,8 @@ set (SRCS ${HDRS} ${SRCS})
 #QT4_ADD_RESOURCES(IMAGES_RES ${RESOURCE_SRCS})
 
 # TODO: put output file name here.
-add_executable(onyx-test ${SRCS} ${MOC_SRCS} ${IMAGES_RES})
-target_link_libraries(onyx-test
+add_executable(onyx-test.oar ${SRCS} ${MOC_SRCS} ${IMAGES_RES})
+target_link_libraries(onyx-test.oar
    onyx_data
    onyx_screen
    onyx_sys
